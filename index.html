@@ -1,155 +1,135 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for NEST, a centralized communication application for Bulacan State University – Bustos Campus.">
-    <title>NEST Privacy Policy</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 30px 20px;
-            color: #222;
-            background: #f8f9fa;
-        }
-        main {
-            background: #fff;
-            padding: 35px;
-            border-radius: 10px;
-        }
-        h1, h2 {
-            color: #17365d;
-        }
-        h1 {
-            border-bottom: 2px solid #17365d;
-            padding-bottom: 12px;
-        }
-        a {
-            color: #0759b5;
-            overflow-wrap: anywhere;
-        }
-        @media (max-width: 600px) {
-            body { padding: 10px; }
-            main { padding: 20px; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for NEST, a centralized communication application for the BulSU Bustos Campus community.">
+  <title>NEST Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202938;
+      --muted: #586579;
+      --line: #dce3ec;
+      --accent: #2457a7;
+      --page: #f4f7fb;
+      --surface: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: clamp(22px, 5vw, 52px);
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: 0 8px 28px rgba(20, 38, 65, 0.06);
+    }
+    h1 { margin: 0 0 8px; line-height: 1.2; font-size: clamp(2rem, 5vw, 2.7rem); }
+    .effective-date { color: var(--muted); margin: 0 0 28px; }
+    h2 { margin: 32px 0 8px; font-size: 1.3rem; line-height: 1.35; }
+    p { margin: 10px 0; }
+    ul { padding-left: 24px; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+    @media (max-width: 520px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; }
+    }
+  </style>
 </head>
 <body>
-<main>
+  <main>
+    <h1>NEST Privacy Policy</h1>
+    <p class="effective-date"><strong>Effective Date:</strong> October 14, 2026</p>
 
-<h1>NEST Privacy Policy</h1>
+    <h2>1. Introduction</h2>
+    <p>NEST is a centralized communication application designed for the Bulacan State University – Bustos Campus community. It aims to provide a common platform for school-related communication among students, faculty members, staff, and administrators.</p>
+    <p>This Privacy Policy explains how NEST handles personal information when users access and use the application.</p>
 
-<p><strong>Effective Date:</strong> October 14, 2026</p>
+    <h2>2. Information We Collect</h2>
+    <p>Depending on the features available and used, NEST may collect or process the following information:</p>
+    <ul>
+      <li><strong>Account information:</strong> Full name, email address, institutional identification number, user role, and account authentication information.</li>
+      <li><strong>Profile information:</strong> Profile pictures and other account details provided or updated by users, where supported.</li>
+      <li><strong>Communication content:</strong> Direct messages, group messages, announcements, and other content submitted through the application's communication features.</li>
+      <li><strong>Interaction information:</strong> Friend requests, blocked-user settings, online status, and related interactions, where supported.</li>
+      <li><strong>Shared content:</strong> Images, attachments, and other files shared through the application, where supported.</li>
+      <li><strong>Administrative information:</strong> Account status, user reports, and activity records used for account administration, security, or troubleshooting, where collected.</li>
+      <li><strong>Notification information:</strong> Information needed to deliver message or announcement notifications, if notification services are enabled.</li>
+    </ul>
+    <p>The information processed depends on the application's actual functionality and configuration.</p>
 
-<h2>1. Introduction</h2>
+    <h2>3. How We Use Information</h2>
+    <p>Information processed by NEST may be used to:</p>
+    <ul>
+      <li>Create, authenticate, and manage user accounts.</li>
+      <li>Identify authorized members of the campus community.</li>
+      <li>Manage account roles and access permissions.</li>
+      <li>Provide direct messaging, group communication, and announcements.</li>
+      <li>Display profile information and support user interactions.</li>
+      <li>Deliver notifications when supported and enabled.</li>
+      <li>Manage account restrictions and user reports where applicable.</li>
+      <li>Maintain the application's reliability, security, and functionality.</li>
+      <li>Investigate technical problems and address misuse of the application.</li>
+    </ul>
 
-<p>NEST is a centralized communication application designed for the Bulacan State University – Bustos Campus community. It aims to provide a common platform for school-related communication among students, faculty members, staff, and administrators.</p>
+    <h2>4. Data Storage and Third-Party Services</h2>
+    <p>NEST uses Supabase for backend services, according to the application's configuration. These services may include user authentication and database storage for account information and application content.</p>
+    <p>Information processed through Supabase may be stored on its infrastructure and transmitted as necessary to provide the application's services. The applicable storage location and processing arrangements depend on the project's configuration and service plan.</p>
+    <p>For more information about Supabase's privacy practices, visit <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase's Privacy Policy</a>.</p>
+    <p>If additional third-party services are integrated into NEST, this policy should be updated to reflect the information those services receive and how they are used.</p>
 
-<p>This Privacy Policy explains how NEST handles personal information when users access and use the application. By using NEST, users acknowledge the practices described in this policy, subject to applicable privacy laws and institutional requirements.</p>
+    <h2>5. Data Sharing and Disclosure</h2>
+    <p>NEST does not sell users' personal information.</p>
+    <p>Personal information and communication content may be accessible to authorized users according to the application's features and permissions. Authorized administrators may access certain information when necessary for account management, system administration, security, or addressing reported problems, subject to applicable access controls and institutional requirements.</p>
+    <p>Information may also be processed by service providers needed to operate the application. Information may be disclosed when required by applicable law or valid legal process.</p>
+    <p>Users should exercise care when sharing personal or confidential information through messages, groups, announcements, or shared files.</p>
 
-<h2>2. Information We Collect</h2>
+    <h2>6. Data Security</h2>
+    <p>NEST is intended to protect personal information through appropriate technical and organizational measures. Depending on the implementation, these measures may include authentication, access permissions, database security settings, and secure network communications.</p>
+    <p>The effectiveness of these measures depends on the application's actual configuration and maintenance. No electronic storage or transmission method can be guaranteed to be completely secure.</p>
+    <p>Users should protect their account credentials and promptly report suspected unauthorized access to the application administrator.</p>
 
-<p>Depending on the features available and used, NEST may collect or process the following categories of information:</p>
+    <h2>7. Data Retention and Deletion</h2>
+    <p>Personal information may be retained for as long as necessary to operate NEST, maintain user accounts, support school-related communication, fulfill legitimate administrative requirements, and comply with applicable obligations.</p>
+    <p>The actual retention period depends on the type of information, the application's configuration, and applicable institutional policies.</p>
+    <p>Users who wish to access, correct, or request deletion of their personal information may contact the application administrator using the contact details provided in this policy. Requests may require identity verification and may be subject to applicable legal or institutional retention requirements.</p>
 
-<ul>
-    <li><strong>Account information:</strong> Full name, email address, institutional identification number, user role, and account authentication information.</li>
-    <li><strong>Profile information:</strong> Profile pictures and other account details that users provide or update, if these features are available.</li>
-    <li><strong>Communication content:</strong> Direct messages, group messages, announcements, and other content submitted through the application's communication features.</li>
-    <li><strong>Interaction information:</strong> Friend requests, blocked-user settings, online status, and related interactions, where supported by the application.</li>
-    <li><strong>Shared content:</strong> Images, attachments, or other files shared through the application, where these features are available.</li>
-    <li><strong>Administrative information:</strong> Account status, user reports, and activity records used for account administration, security, or troubleshooting, where collected.</li>
-    <li><strong>Notification information:</strong> Information needed to deliver message or announcement notifications, if notification services are enabled.</li>
-</ul>
+    <h2>8. User Rights and Privacy Concerns</h2>
+    <p>Subject to applicable law, users may request access to their personal information, correction of inaccurate information, or deletion of information where appropriate.</p>
+    <p>Users may also raise questions or concerns regarding the collection, use, storage, or disclosure of their personal information.</p>
+    <p>Requests and concerns should be directed to the application administrator using the contact information below. Users may also consult the appropriate university privacy office or relevant Philippine data protection authority where applicable.</p>
 
-<p>The information processed depends on the application's actual functionality and configuration. NEST is intended to handle information relevant to school-related communication and account administration.</p>
+    <h2>9. Intended Users and Age</h2>
+    <p>NEST is intended for authorized members of the Bulacan State University – Bustos Campus community, including students, faculty members, staff, and administrators. The application is primarily designed for higher education and is not specifically directed toward children.</p>
+    <p>Some students may be under 18 years of age. Their personal information must be handled in accordance with applicable data protection laws and institutional requirements.</p>
+    <p>Privacy concerns involving a minor's personal information may be raised with the application administrator using the contact information provided below.</p>
 
-<h2>3. How We Use Information</h2>
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>This Privacy Policy may be updated when NEST's features, data-handling practices, service providers, or applicable requirements change.</p>
+    <p>The latest version will be made available at the same public privacy policy URL. The effective date at the beginning of the policy will be updated when appropriate. Users are encouraged to review the policy periodically.</p>
 
-<p>Information processed by NEST may be used to:</p>
+    <h2>11. Contact Information</h2>
+    <p>For questions about this Privacy Policy, requests concerning personal information, or other privacy-related concerns, please contact:</p>
+    <ul>
+      <li><strong>Application:</strong> NEST</li>
+      <li><strong>Institutional context:</strong> Bulacan State University – Bustos Campus</li>
+      <li><strong>Privacy contact email:</strong> <a href="mailto:sabadoe37@gmail.com">sabadoe37@gmail.com</a></li>
+    </ul>
+    <p>NEST's reference to Bulacan State University – Bustos Campus identifies its intended institutional community and does not, by itself, imply official university endorsement or operation.</p>
 
-<ul>
-    <li>Create, authenticate, and manage user accounts.</li>
-    <li>Identify authorized members of the campus community.</li>
-    <li>Manage account roles and access permissions.</li>
-    <li>Provide direct messaging, group communication, and announcements.</li>
-    <li>Display profile information and support user interactions.</li>
-    <li>Deliver notifications when supported and enabled.</li>
-    <li>Manage account restrictions, user reports, and blocked users where applicable.</li>
-    <li>Maintain the application's reliability, security, and functionality.</li>
-    <li>Investigate technical problems and address misuse of the application.</li>
-</ul>
-
-<h2>4. Data Storage and Third-Party Services</h2>
-
-<p>NEST uses Supabase for backend services, according to the application's configuration. These services may include user authentication and database storage for account information and application content.</p>
-
-<p>Information processed through Supabase may be stored on its infrastructure and transmitted as necessary to provide the application's services. The applicable storage location, security settings, and processing arrangements depend on the project's configuration and service plan.</p>
-
-<p>For more information about Supabase's privacy practices, visit:</p>
-
-<p><a href="https://supabase.com/privacy">https://supabase.com/privacy</a></p>
-
-<p>If additional third-party services are integrated into NEST, this policy should be updated to reflect the information those services receive and how they are used.</p>
-
-<h2>5. Data Sharing and Disclosure</h2>
-
-<p>NEST does not sell users' personal information.</p>
-
-<p>Personal information and communication content may be accessible to authorized users according to the application's features and permissions. Authorized administrators may access certain information when necessary for account management, system administration, security, or addressing reported problems, subject to applicable access controls and institutional requirements.</p>
-
-<p>Information may also be processed by service providers needed to operate the application. Information may be disclosed when required by applicable law or valid legal process.</p>
-
-<p>Users should exercise care when sharing personal or confidential information through messages, groups, announcements, or shared files.</p>
-
-<h2>6. Data Security</h2>
-
-<p>NEST is intended to protect personal information through appropriate technical and organizational measures. Depending on the implementation, these measures may include authentication, access permissions, database security settings, and secure network communications.</p>
-
-<p>The effectiveness of these measures depends on the application's actual configuration and maintenance. No electronic storage or transmission method can be guaranteed to be completely secure. Users should protect their account credentials and promptly report suspected unauthorized access to the application administrator.</p>
-
-<h2>7. Data Retention and Deletion</h2>
-
-<p>Personal information may be retained for as long as necessary to operate NEST, maintain user accounts, support school-related communication, fulfill legitimate administrative requirements, and comply with applicable obligations.</p>
-
-<p>The actual retention period depends on the type of information, the application's configuration, and applicable institutional policies. Information that is no longer necessary should be handled in accordance with applicable retention and deletion procedures.</p>
-
-<p>Users who wish to access, correct, or request deletion of their personal information may contact the application administrator using the contact details provided in this policy. Requests may require identity verification and may be subject to applicable legal or institutional retention requirements.</p>
-
-<h2>8. User Rights and Privacy Concerns</h2>
-
-<p>Subject to applicable law, users may request access to their personal information, correction of inaccurate information, or deletion of information where appropriate. Users may also raise questions or concerns regarding the collection, use, storage, or disclosure of their personal information.</p>
-
-<p>Requests and concerns should be directed to the application administrator using the contact information below. Users may also consult the appropriate university privacy office or the relevant Philippine data protection authority where applicable.</p>
-
-<h2>9. Intended Users and Age</h2>
-
-<p>NEST is intended for authorized members of the Bulacan State University – Bustos Campus community, including students, faculty members, staff, and administrators. The application is primarily designed for higher education and is not specifically directed toward children.</p>
-
-<p>Some students may be under 18 years of age. Their personal information must be handled in accordance with applicable data protection laws and institutional requirements. Privacy concerns involving a minor's personal information may be raised with the application administrator using the contact information provided below.</p>
-
-<h2>10. Changes to This Privacy Policy</h2>
-
-<p>This Privacy Policy may be updated when NEST's features, data-handling practices, service providers, or applicable requirements change.</p>
-
-<p>The latest version will be made available at the same public privacy policy URL. The effective date at the beginning of the policy will be updated when appropriate. Users are encouraged to review the policy periodically.</p>
-
-<h2>11. Contact Information</h2>
-
-<p>For questions about this Privacy Policy, requests concerning personal information, or other privacy-related concerns, please contact:</p>
-
-<ul>
-    <li><strong>Application:</strong> NEST</li>
-    <li><strong>Institutional context:</strong> Bulacan State University – Bustos Campus</li>
-    <li><strong>Privacy contact email:</strong> [INSERT A MONITORED CONTACT EMAIL ADDRESS]</li>
-</ul>
-
-<p>NEST's reference to Bulacan State University – Bustos Campus identifies its intended institutional community and does not, by itself, imply official university endorsement or operation.</p>
-
-</main>
+    <footer>
+      <p>NEST Privacy Policy · Effective October 14, 2026</p>
+    </footer>
+  </main>
 </body>
 </html>
-```
